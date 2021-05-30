@@ -1,7 +1,7 @@
 - **ntrboot**
 - [Home Page](../../home)
 - [Get Started](../../get-started)
-- [ntrboot](ntrboot)
+- [ntrboot](../ntrboot)
 - [Flashing ntrboot (DSi)](index)
 - [Intalling boot9strap (ntrboot)](installing-boot9strap)
 - [Finalizing Setup](finalizing-setup)
