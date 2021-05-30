@@ -1,15 +1,11 @@
-- **CBHC**
-- [Home Page](../introduction)
-- [Choose a CFW](../cfw-choice)
-- [Choose Your DS VC Game](ds-vc-choice)
-- [SD Preparation](sd-preparation)
-- [Browser Exploit](browser-exploit)
-- [Making a NAND Backup](nand-backup)
-- [Launching CFW](launching-cfw)
-- [Install Homebrew Channel](installing-hblc)
+- **Soundhax**
+- [Home Page](../home)
+- [Get Started](../get-started)
+- [Intalling boot9strap (Soundhax)](installing-boot9strap)
+- [Finalizing Setup](../finalizing-setup)
 - **Links**
-- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/hacks-guide/Guide-WiiU)
+- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/hacks-guide/Guide_3DS)
 - [![Discord](https://icongr.am/simple/discord.svg?colored&size=16)Discord](https://discord.gg/C29hYvh)
-- [![Translate](https://icongr.am/material/translate.svg?color=808080&size=16)Translate](https://hacks-guide.crowdin.com/u/projects/10)
+- [![Translate](https://icongr.am/material/translate.svg?color=808080&size=16)Translate](https://crowdin.com/project/3ds-guide)
 - [Donate](../donations)
 - [About](../about)
