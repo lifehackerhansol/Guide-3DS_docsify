@@ -67,7 +67,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 ___
 
-> ### Continue to [Finalizing Setup](../finalizing-setup)
+> ### Continue to [Finalizing Setup](finalizing-setup)
 
 ___
 
