@@ -53,7 +53,7 @@ ___
 
 This method requires nothing more than your stock unhacked 3DS and a compatible flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table above for more information.
 
-> Continue to [Flashing ntrboot (3DS Single System)](flashing-3ds-single-system)
+> Continue to [Flashing ntrboot (3DS Single System)](flashing-3ds-single-system/index)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version.
 
-> Continue to [Flashing ntrboot (3DS Multi System)](flashing-3ds-multi-system)
+> Continue to [Flashing ntrboot (3DS Multi System)](flashing-3ds-multi-system/index)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your NDS.
 
-> Continue to [Flashing ntrboot (NDS)](flashing-nds)
+> Continue to [Flashing ntrboot (NDS)](flashing-nds/index)
 
 ___
 
@@ -77,4 +77,4 @@ ___
 
 This method requires temporary access to a Nintendo DSi that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your DSi. This means that your flashcart must support launching `.nds` files on your DSi's version. See the flashcart table above for more information.
 
-> Continue to [Flashing ntrboot (DSi)](flashing-dsi)
+> Continue to [Flashing ntrboot (DSi)](flashing-dsi/index)
