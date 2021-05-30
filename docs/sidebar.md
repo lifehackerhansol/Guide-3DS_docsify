@@ -1,21 +1,6 @@
 - **User Guide**
-- [Introduction](introduction)
-- [Choose a CFW](cfw-choice)
-- **vWii**
-- [vWii Modding](vwii-modding)
-- **Troubleshooting**
-- [Common Issues & Fixes](common-issues-fixes)
-- [Recover a vWii IOS/Channel](recover-vwii-ioses-channels)
-- [Fix Error Code 112-1037](fix-errcode-112-1037)
-- **Extras**
-- [Blocking Updates](block-updates)
-- [Unblocking Updates](unblock-updates)
-- [Configurable Payload](configurable-payload)
-- [Dumping Wii U Discs](dump-games)
-- [Dumping Wii Discs](dump-wii-games)
-- [Uninstall CBHC](uninstall-cbhc)
-- [Uninstall Indexiine](uninstall-indexiine)
-- [Frequently Asked Questions](faq)
+- [Home Page](../home)
+- [Get Started](../get-started)
 - **Links**
 - [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/hacks-guide/Guide-WiiU)
 - [![Discord](https://icongr.am/simple/discord.svg?colored&size=16)Discord](https://discord.gg/C29hYvh)
