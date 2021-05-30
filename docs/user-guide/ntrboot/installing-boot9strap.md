@@ -1,8 +1,5 @@
+# Installing boot9strap (ntrboot)
 ---
-title: "Installing boot9strap (ntrboot)"
----
-
-{% include toc title="Table of Contents" %}
 
 ### Required Reading
 
@@ -22,14 +19,13 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 1. Power off your device
 1. Insert your console's SD card into your computer
-  + This is the SD card from your 3DS, *not* the SD card from your flashcart
+   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Copy `SafeB9SInstaller.firm` to the root of your console's SD card and rename it to `boot.firm`
 1. Copy `boot.3dsx` from the Luma3DS `.zip` to the root of your console's SD card
 1. Create a folder named `boot9strap` on the root of your console's SD card
 1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your console's SD card
 
-    ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }})
-    {: .notice--info}
+<img src="docs/assets/img/screenshots/boot9strap-ntrboot-file-layout.png" alt="boot9strap ntrboot File Layout">
 
 1. Reinsert your SD card into your 3DS
 1. Power on your device
@@ -37,23 +33,23 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 #### Section II - ntrboot
 
 1. Use the magnet to find the spot on your device where the sleep sensor is triggered
-  + This step is not needed on the old 2DS (which has a sleep mode switch)
+   + This step is not needed on the old 2DS (which has a sleep mode switch)
 1. Power off your device
 1. Insert your flashcart into your device
 1. Place the magnet on your device to trigger the sleep sensor
-  + On old 2DS, you should instead enable the sleep mode switch
+   + On old 2DS, you should instead enable the sleep mode switch
 1. Hold (Start) + (Select) + (X) + (Power) for several seconds, then release the buttons
-  + It may take a few attempts to get this to work because the positioning is awkward
+   + It may take a few attempts to get this to work because the positioning is awkward
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
 #### Section III - Installing boot9strap
 
 1. Wait for all safety checks to complete
 1. Remove the magnet from your device
-  + On old 2DS, you should instead disable the sleep mode switch
+   + On old 2DS, you should instead disable the sleep mode switch
 1. When prompted, input the key combo given to install boot9strap
 1. Once it has completed, force your device to power off by holding down the power button
-  + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
+   + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
 
 #### Section IV - Configuring Luma3DS
 
@@ -63,16 +59,15 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 1. Reinsert your SD card into your device
 1. Power on your device
 1. Your device should have booted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:
-  + **"Show NAND or user string in System Settings"**
+   + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
-  + If you get an error, just continue the next page
+   + If you get an error, just continue the next page
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
-{: .notice--primary}
+> ### Continue to [Finalizing Setup](../finalizing-setup)
 
 ___
 
@@ -122,7 +117,7 @@ Do not follow this section until you have completed the rest of the instructions
 
 1. Power off your device
 1. Insert your SD card into your computer
-  + This is the SD card from your 3DS, *not* the SD card from your flashcart
+   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Create a folder named `ntrboot` on the root of your SD card
 1. Copy the `.bin` file from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card
@@ -133,7 +128,7 @@ Do not follow this section until you have completed the rest of the instructions
 1. Read the red screen warning
 1. Press (A) to continue
 1. Select your flashcart
-  + If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
+   + If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
 1. Select "Restore Flash"
 1. Press (A) to proceed
 1. Wait until the process is completed
