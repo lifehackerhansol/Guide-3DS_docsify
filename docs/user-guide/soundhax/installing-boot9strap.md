@@ -65,5 +65,5 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 
 ___
 
-> ### Continue to [Finalizing Setup](finalizing-setup)
+> ### Continue to [Finalizing Setup](../finalizing-setup)
 
