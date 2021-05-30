@@ -42,7 +42,7 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 1. Go to `/SDCARD`, then play "<3 nedwill 2016"
    - This may take many tries
    - If it freezes, force the console to power off by holding the power button, then try again
-   - If your console displays a red and white screen *and* your console is on system version 9.4.0, 9.5.0, or 9.6.0, try following [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
+   - If your console displays a red and white screen *and* your console is on system version 9.4.0, 9.5.0, or 9.6.0, try following [Homebrew Launcher (Soundhax)](boot9strap/homebrew-launcher-(soundhax))
 
 <img src="docs/assets/img/screenshots/soundhax-launch.png" alt="Launching Soundhax">
 
@@ -57,11 +57,11 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 #### Section IV - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
-  - If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+   - If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:
-  - **"Show NAND or user string in System Settings"**
+   - **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
-  - If you get an error, just continue the next page
+   - If you get an error, just continue the next page
 
 ___
 
