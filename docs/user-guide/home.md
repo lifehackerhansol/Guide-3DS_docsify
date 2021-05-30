@@ -1,6 +1,6 @@
 # 3DS Hacks Guide
 ---
-A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.
+A complete guide to 3DS custom firmware, from stock to boot9strap.
 
 > For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
 
@@ -10,18 +10,6 @@ A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.
 !> If you have a developer ("PANDA") console, check out the [Panda 3DS Hacks Guide](https://panda.hacks.guide).
 
 
-<div class="notice--danger">{{ notice-1 | markdownify }}</div>
-
-{% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
-Alternatively, click [here](https://crowdin.com/project/3ds-guide) to help to keep these translations up to date.
-{% endcapture %}
-
-<div class="notice--success">{{ notice-1 | markdownify }}</div>
-
-This guide needs *your* help to seed [these]({{ "rss.xml" | absolute_url }}) torrents!
-{: .notice--primary}
 
 ## What is Homebrew?
 
