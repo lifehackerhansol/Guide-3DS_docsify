@@ -1,39 +1,3 @@
----
-layout: splash
-title: "3DS Hacks Guide" #
-header:
-  overlay_color: "#5e616c" #
-  overlay_image: /images/home-page-feature.jpg
-  overlay_filter: 0.5
-  caption:
-excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
----
-
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
-{: .notice--primary}
-
-___
-
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
-{: .notice--warning}
-
-{% capture notice-1 %}
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
-If you have a developer ("PANDA") console, check out the [Panda 3DS Hacks Guide](https://panda.hacks.guide).
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-1 | markdownify }}</div>
-
-{% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
-Alternatively, click [here](https://crowdin.com/project/3ds-guide) to help to keep these translations up to date.
-{% endcapture %}
-
-<div class="notice--success">{{ notice-1 | markdownify }}</div>
-
-This guide needs *your* help to seed [these]({{ "rss.xml" | absolute_url }}) torrents!
-{: .notice--primary}
 
 ## What is Homebrew?
 
