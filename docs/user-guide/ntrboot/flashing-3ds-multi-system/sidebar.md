@@ -1,6 +1,6 @@
 - **ntrboot**
-- [Home Page](../home)
-- [Get Started](../get-started)
+- [Home Page](../../home)
+- [Get Started](../../get-started)
 - [ntrboot](ntrboot)
 - [Flashing ntrboot (3DS Multi System)](index)
 - [Intalling boot9strap (ntrboot)](installing-boot9strap)
