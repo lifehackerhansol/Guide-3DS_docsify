@@ -36,7 +36,7 @@ The letter and number after the system version (for example, 11.14.0-**46U**) is
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="#/boot9strap/soundhax">Installing boot9strap (Soundhax)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="#/soundhax/installing-boot9strap">Installing boot9strap (Soundhax)</a></td>
     </tr>
 	<tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
@@ -45,7 +45,7 @@ The letter and number after the system version (for example, 11.14.0-**46U**) is
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0 (latest version)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="#/nbhax/installing-boot9strap">Installing boot9strap (Browser)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">ALL VERSIONS<br></td>
