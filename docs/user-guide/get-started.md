@@ -1,26 +1,19 @@
+# Get Started
 ---
-title: "Get Started"
----
-
-{% include toc title="Table of Contents" %}
 
 ### Required Reading
 
-If you have hacked your 3DS in the past, or you purchased your 3DS second-hand, it is possible that your console already has custom firmware. You should [check for CFW](checking-for-cfw) before proceeding.
-{: .notice--warning}
+> If you have hacked your 3DS in the past, or you purchased your 3DS second-hand, it is possible that your console already has custom firmware. You should [check for CFW](checking-for-cfw) before proceeding.
 
 Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive.
 
 Your device version can be found at the bottom right of the top screen of the System Settings.
 
-![]({{ "/images/screenshots/system-version.png" | absolute_url }})
-{: .notice--info}
+<img src="/docs/assets/img/screenshots/system-version.png" alt="System Version">
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3XSwift (Mac)](f3xswift-(mac))!
-{: .notice--warning}
+!> Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3XSwift (Mac)](f3xswift-(mac))!
 
-While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
-{: .notice--warning}
+!> While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
 
 ### Version Table
 

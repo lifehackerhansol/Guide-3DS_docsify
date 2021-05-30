@@ -1,5 +1,5 @@
 # 3DS Hacks Guide
----
+___
 A complete guide to 3DS custom firmware, from stock to boot9strap.
 
 > For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
