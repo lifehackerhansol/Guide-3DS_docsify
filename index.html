@@ -2,107 +2,119 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-	<meta name="description" content="A guide to hacking the Nintendo 3DS.">
-	<title>3DS Hacks Guide</title>
-	<link rel="icon" href="docs/assets/img/favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="A guide to hacking the Nintendo 3DS.">
+    <title>3DS Hacks Guide</title>
+    <link rel="icon" href="docs/assets/img/favicon.ico">
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="docs/assets/css/dark.css" title="Dark">
-	<link rel="stylesheet" href="docs/assets/css/main.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="docs/assets/css/dark.css" title="Dark">
+    <link rel="stylesheet" href="docs/assets/css/main.css">
 
-	<!-- Alternate Stylesheets -->
-	<link rel="stylesheet alternate" href="docs/assets/css/light.css" title="Light">
+    <!-- Alternate Stylesheets -->
+    <link rel="stylesheet alternate" href="docs/assets/css/light.css" title="Light">
 </head>
 
 <body>
-	<div id="app"></div>
+    <div id="app"></div>
 
-	<!-- JavaScript -->
-	<script>
-		window.$docsify = {
-			// GENERAL
-			// -----------------------------------------------------------------
-			name		: '3DS Hacks Guide',
-			homepage	: '/docs/user-guide/home.md',
-			logo		: 'docs/assets/img/logo.png',
-			loadNavbar	: 'docs/navbar.md',
-			mergeNavbar	: false,
-			loadSidebar	: 'sidebar.md',
-			relativePath: true,
-			alias		: {
-				// Original - English
-				'/'												: '/docs/user-guide/home.md',
-				'/sidebar.md'									: '/docs/sidebar.md',
-				'/home'											: '/docs/user-guide/home.md',
-				'/get-started'									: '/docs/user-guide/get-started.md',
-				// Finalizing Setup
-				'/finalizing-setup'								: '/docs/user-guide/finalizing-setup.md',
-				// Soundhax
-				'/soundhax/sidebar.md'							: '/docs/user-guide/soundhax/sidebar.md',
-				'/soundhax/installing-boot9strap'				: '/docs/user-guide/soundhax/installing-boot9strap.md',
-				'/soundhax/finalizing-setup'					: '/docs/user-guide/finalizing-setup.md',
-				// nbhax, obhax
-				'/nbhax/sidebar.md'								: '/docs/user-guide/nbhax/sidebar.md',
-				'/nbhax/installing-boot9strap'					: '/docs/user-guide/nbhax/installing-boot9strap.md',
-				'/nbhax/finalizing-setup'						: '/docs/user-guide/finalizing-setup.md',
+    <!-- JavaScript -->
+    <script>
+        window.$docsify = {
+            // GENERAL
+            // -----------------------------------------------------------------
+            name        : '3DS Hacks Guide',
+            homepage    : '/docs/user-guide/home.md',
+            logo        : 'docs/assets/img/logo.png',
+            loadNavbar  : 'docs/navbar.md',
+            mergeNavbar : false,
+            loadSidebar : 'sidebar.md',
+            relativePath: true,
+            alias       : {
+                // Original - English
+                '/'                                           : '/docs/user-guide/home.md',
+                '/sidebar.md'                                 : '/docs/sidebar.md',
+                '/home'                                       : '/docs/user-guide/home.md',
+                '/get-started'                                : '/docs/user-guide/get-started.md',
+                // Finalizing Setup
+                '/finalizing-setup'                           : '/docs/user-guide/finalizing-setup.md',
+                // Soundhax
+                '/soundhax/sidebar.md'                        : '/docs/user-guide/soundhax/sidebar.md',
+                '/soundhax/installing-boot9strap'             : '/docs/user-guide/soundhax/installing-boot9strap.md',
+				'/soundhax/finalizing-setup'                  : '/docs/user-guide/finalizing-setup.md',
+                // nbhax, obhax
+                '/nbhax/sidebar.md'                           : '/docs/user-guide/nbhax/sidebar.md',
+                '/nbhax/installing-boot9strap'                : '/docs/user-guide/nbhax/installing-boot9strap.md',
+                '/nbhax/finalizing-setup'                     : '/docs/user-guide/finalizing-setup.md',
 				// ntrboot
-				'/ntrboot/sidebar.md'							: '/docs/user-guide/ntrboot/sidebar.md',
-				'/ntrboot/ntrboot'								: '/docs/user-guide/ntrboot/index.md',
-				'/ntrboot/flashing-3ds-multi-system'			: '/docs/user-guide/ntrboot/flashing-3ds-multi-system/index.md',
-				'/ntrboot/flashing-3ds-single-system'			: '/docs/user-guide/ntrboot/flashing-3ds-single-system/index.md',
-				'/ntrboot/flashing-dsi'							: '/docs/user-guide/ntrboot/flashing-dsi/index.md',
-				'/ntrboot/flashing-nds'							: '/docs/user-guide/ntrboot/flashing-nds/index.md',
-				'/ntrboot/installing-boot9strap'              : '/docs/user-guide/ntrboot/installing-boot9strap.md',
-				'/ntrboot/installing-boot9strap'              : '/docs/user-guide/ntrboot/installing-boot9strap.md',
-				'/ntrboot/installing-boot9strap'              : '/docs/user-guide/ntrboot/installing-boot9strap.md',
+                '/ntrboot/sidebar.md'                         : '/docs/user-guide/ntrboot/sidebar.md',
+                '/ntrboot/ntrboot'                            : '/docs/user-guide/ntrboot/index.md',
+				'/ntrboot/flashing-3ds-multi-system'          : '/docs/user-guide/ntrboot/flashing-3ds-multi-system/index.md',
+				'/ntrboot/flashing-3ds-single-system'         : '/docs/user-guide/ntrboot/flashing-3ds-single-system.md',
+				'/ntrboot/flashing-dsi'                       : '/docs/user-guide/ntrboot/flashing-dsi.md',
+				'/ntrboot/flashing-nds'                       : '/docs/user-guide/ntrboot/flashing-nds.md',
 				'/ntrboot/installing-boot9strap'              : '/docs/user-guide/ntrboot/installing-boot9strap.md',
 				'/ntrboot/finalizing-setup'                   : '/docs/user-guide/finalizing-setup.md',
-				// vWii
-				'/vwii-modding'                               : '/docs/vwii/vwii-modding.md',
-				'/vwii/sidebar.md'                            : '/docs/user-guide/vwii/sidebar.md',
-				'/vwii/browser-exploit'                       : '/docs/user-guide/vwii/browser-exploit.md',
-				// Troubleshooting
-				'/recover-vwii-ioses-channels'                : '/docs/troubleshooting/recover-vwii-ioses-channels.md',
-				'/common-issues-fixes'                        : '/docs/troubleshooting/common-issues-fixes.md',
-				'/fix-errcode-112-1037'                       : '/docs/troubleshooting/fix-errcode-112-1037.md',
-			},
+                // vWii
+                '/vwii-modding'                               : '/docs/vwii/vwii-modding.md',
+                '/vwii/sidebar.md'                            : '/docs/user-guide/vwii/sidebar.md',
+                '/vwii/browser-exploit'                       : '/docs/user-guide/vwii/browser-exploit.md',
+                // Troubleshooting
+                '/recover-vwii-ioses-channels'                : '/docs/troubleshooting/recover-vwii-ioses-channels.md',
+                '/common-issues-fixes'                        : '/docs/troubleshooting/common-issues-fixes.md',
+                '/fix-errcode-112-1037'                       : '/docs/troubleshooting/fix-errcode-112-1037.md',
+                // Extras
+                '/block-updates'                              : '/docs/extras/block-updates.md',
+                '/configurable-payload'                       : '/docs/extras/configurable-payload.md',
+                '/dump-games'                                 : '/docs/extras/dump-games.md',
+                '/dump-wii-games'                             : '/docs/extras/dump-wii-games.md',
+                '/unblock-updates'                            : '/docs/extras/unblock-updates.md',
+                '/uninstall-soundhax'                             : '/docs/extras/uninstall-soundhax.md',
+                '/uninstall-indexiine'                        : '/docs/extras/uninstall-indexiine.md',
+                '/faq'                                        : '/docs/extras/faq.md',
+                '/find-wiiu-ip-address'                       : '/docs/extras/find-wiiu-ip-address.md',
+                '/donations'                                  : '/docs/extras/donations.md',
+                // About
+                '/about'                                      : '/docs/extras/about.md',
+                // Privacy Policy
+                '/privacy-policy'                             : '/docs/privacy/privacy-policy',
+            },
 
-			// NAVIGATION
-			// -----------------------------------------------------------------
-			auto2top   : true,
-			maxLevel   : 4,
-			subMaxLevel: 4,
+            // NAVIGATION
+            // -----------------------------------------------------------------
+            auto2top   : true,
+            maxLevel   : 4,
+            subMaxLevel: 4,
 
-			// PLUGINS
-			// -----------------------------------------------------------------
-			executeScript: true,
-			search: {
-				depth      : 3,
-				noData     : 'No results!',
-				placeholder: 'Search...'
-			},
-			themeable    : {
-				readyTransition : true,
-				responsiveTables: true
-			},
-			tabs: {
-				persist    : true,
-				sync       : true
-			}
-		};
-	</script>
-	<script src="docs/assets/js/main.js"></script>
-	<script src="docs/assets/js/docsify-pagination.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-	<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
-	<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@latest"></script>
-	<script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
-	<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+            // PLUGINS
+            // -----------------------------------------------------------------
+            executeScript: true,
+            search: {
+                depth      : 3,
+                noData     : 'No results!',
+                placeholder: 'Search...'
+            },
+            themeable    : {
+                readyTransition : true,
+                responsiveTables: true
+            },
+            tabs: {
+                persist    : true,
+                sync       : true
+            }
+        };
+    </script>
+    <script src="docs/assets/js/main.js"></script>
+    <script src="docs/assets/js/docsify-pagination.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 </body>
 </html>
